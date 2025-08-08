@@ -1,0 +1,5 @@
+Function GetLastRow() As Integer
+    Dim ws As Worksheet
+    Set ws = ActiveSheet
+    GetLastRow = ws.Cells(ws.Rows.Count, 1).End(xlUp).Row
+End Function
