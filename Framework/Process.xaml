@@ -130,7 +130,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message Process Start" sap:VirtualizedContainerService.HintSize="686.4,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Started Process&quot;]" />
-    <Sequence DisplayName="Write values in dashboard" sap:VirtualizedContainerService.HintSize="710,19363" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="Write values in dashboard" sap:VirtualizedContainerService.HintSize="690,13031" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="Column" />
       </Sequence.Variables>
@@ -140,7 +140,7 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Count the number of rows " sap:VirtualizedContainerService.HintSize="676,19303" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Count the number of rows " sap:VirtualizedContainerService.HintSize="656,12971" sap2010:WorkflowViewState.IdRef="Sequence_4">
         <Sequence.Variables>
           <Variable x:TypeArguments="sd:DataTable" Name="dt">
             <Variable.Default>
@@ -155,7 +155,7 @@
             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="642,1270" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_2">
+        <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="622,1270" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_2">
           <ueab:ExcelProcessScopeX.Body>
             <ActivityAction x:TypeArguments="ui:IExcelProcess">
               <ActivityAction.Argument>
@@ -269,32 +269,32 @@
             </ActivityAction>
           </ueab:ExcelProcessScopeX.Body>
         </ueab:ExcelProcessScopeX>
-        <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="642,17919" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+        <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="622,11587" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
           <ueab:ExcelProcessScopeX.Body>
             <ActivityAction x:TypeArguments="ui:IExcelProcess">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="608,17809" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="588,11477" sap2010:WorkflowViewState.IdRef="Sequence_6">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="574,17749" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[DashboardPath]">
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="554,11417" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[DashboardPath]">
                   <ueab:ExcelApplicationCard.Body>
                     <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                       <ActivityAction.Argument>
                         <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
                       </ActivityAction.Argument>
-                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="540,17453" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,11121" sap2010:WorkflowViewState.IdRef="Sequence_5">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="506,136" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,136" sap2010:WorkflowViewState.IdRef="CommentOut_4">
                           <ui:CommentOut.Body>
                             <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_84">
                               <sap:WorkflowViewStateService.ViewState>
@@ -307,9 +307,9 @@
                             </Sequence>
                           </ui:CommentOut.Body>
                         </ui:CommentOut>
-                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;F&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="506,193" sap2010:WorkflowViewState.IdRef="WriteCellX_1" Value="[in_TransactionItem.SpecificContent(&quot;Client DO&quot;).ToString]" />
-                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;H&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="506,193" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[in_TransactionItem.SpecificContent(&quot;Article Réel&quot;).ToString]" />
-                        <If Condition="[string.IsNullOrEmpty(in_TransactionItem.SpecificContent(&quot;PrixTonne&quot;).ToString) = false]" sap:VirtualizedContainerService.HintSize="506,473" sap2010:WorkflowViewState.IdRef="If_1">
+                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;F&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="486,193" sap2010:WorkflowViewState.IdRef="WriteCellX_1" Value="[in_TransactionItem.SpecificContent(&quot;Client DO&quot;).ToString]" />
+                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;H&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="486,193" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[in_TransactionItem.SpecificContent(&quot;Article Réel&quot;).ToString]" />
+                        <If Condition="[string.IsNullOrEmpty(in_TransactionItem.SpecificContent(&quot;PrixTonne&quot;).ToString) = false]" sap:VirtualizedContainerService.HintSize="486,473" sap2010:WorkflowViewState.IdRef="If_1">
                           <If.Then>
                             <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,244" sap2010:WorkflowViewState.IdRef="Sequence_38">
                               <sap:WorkflowViewStateService.ViewState>
@@ -330,7 +330,7 @@
                             </Sequence>
                           </If.Else>
                         </If>
-                        <If Condition="[string.IsNullOrEmpty(in_TransactionItem.SpecificContent(&quot;PrixUC&quot;).ToString) = false]" sap:VirtualizedContainerService.HintSize="506,473" sap2010:WorkflowViewState.IdRef="If_2">
+                        <If Condition="[string.IsNullOrEmpty(in_TransactionItem.SpecificContent(&quot;PrixUC&quot;).ToString) = false]" sap:VirtualizedContainerService.HintSize="486,473" sap2010:WorkflowViewState.IdRef="If_2">
                           <If.Then>
                             <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,244" sap2010:WorkflowViewState.IdRef="Sequence_40">
                               <sap:WorkflowViewStateService.ViewState>
@@ -351,15 +351,15 @@
                             </Sequence>
                           </If.Else>
                         </If>
-                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;M&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="506,193" sap2010:WorkflowViewState.IdRef="WriteCellX_3" Value="[in_TransactionItem.SpecificContent(&quot;FrancoDepart&quot;).ToString]" />
-                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;V&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="506,193" sap2010:WorkflowViewState.IdRef="WriteCellX_6" Value="[CType(in_TransactionItem.SpecificContent(&quot;DateApplication&quot;), DateTime).ToString(&quot;dd/MM/yyyy&quot;)]" />
-                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;W&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="506,193" sap2010:WorkflowViewState.IdRef="WriteCellX_7" Value="[CType(in_TransactionItem.SpecificContent(&quot;DateFin&quot;), DateTime).ToString(&quot;dd/MM/yyyy&quot;)]" />
-                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;B&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="506,193" sap2010:WorkflowViewState.IdRef="WriteCellX_8" Value="[in_TransactionItem.SpecificContent(&quot;Responsable&quot;)]" />
-                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;N&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="506,193" sap2010:WorkflowViewState.IdRef="WriteCellX_9" Value="[in_TransactionItem.SpecificContent(&quot;OrganisationCommerciale&quot;)]" />
-                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;R&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="506,193" sap2010:WorkflowViewState.IdRef="WriteCellX_10" Value="[in_TransactionItem.SpecificContent(&quot;Unité&quot;)]" />
-                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;S&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="506,193" sap2010:WorkflowViewState.IdRef="WriteCellX_11" Value="[in_TransactionItem.SpecificContent(&quot;Par&quot;)]" />
-                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;T&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="506,193" sap2010:WorkflowViewState.IdRef="WriteCellX_12" Value="[in_TransactionItem.SpecificContent(&quot;Unité quantité&quot;)]" />
-                        <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[in_TransactionItem.SpecificContent(&quot;Unité bareme&quot;).ToString]" sap:VirtualizedContainerService.HintSize="506,6389" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;M&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="486,193" sap2010:WorkflowViewState.IdRef="WriteCellX_3" Value="[in_TransactionItem.SpecificContent(&quot;FrancoDepart&quot;).ToString]" />
+                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;V&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="486,193" sap2010:WorkflowViewState.IdRef="WriteCellX_6" Value="[CType(in_TransactionItem.SpecificContent(&quot;DateApplication&quot;), DateTime).ToString(&quot;dd/MM/yyyy&quot;)]" />
+                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;W&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="486,193" sap2010:WorkflowViewState.IdRef="WriteCellX_7" Value="[CType(in_TransactionItem.SpecificContent(&quot;DateFin&quot;), DateTime).ToString(&quot;dd/MM/yyyy&quot;)]" />
+                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;B&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="486,193" sap2010:WorkflowViewState.IdRef="WriteCellX_8" Value="[in_TransactionItem.SpecificContent(&quot;Responsable&quot;)]" />
+                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;N&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="486,193" sap2010:WorkflowViewState.IdRef="WriteCellX_9" Value="[in_TransactionItem.SpecificContent(&quot;OrganisationCommerciale&quot;)]" />
+                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;R&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="486,193" sap2010:WorkflowViewState.IdRef="WriteCellX_10" Value="[in_TransactionItem.SpecificContent(&quot;Unité&quot;)]" />
+                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;S&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="486,193" sap2010:WorkflowViewState.IdRef="WriteCellX_11" Value="[in_TransactionItem.SpecificContent(&quot;Par&quot;)]" />
+                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;T&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="486,193" sap2010:WorkflowViewState.IdRef="WriteCellX_12" Value="[in_TransactionItem.SpecificContent(&quot;Unité quantité&quot;)]" />
+                        <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[in_TransactionItem.SpecificContent(&quot;Unité bareme&quot;).ToString]" sap:VirtualizedContainerService.HintSize="486,6389" sap2010:WorkflowViewState.IdRef="Switch`1_1">
                           <Switch.Default>
                             <Sequence DisplayName="Default" sap:VirtualizedContainerService.HintSize="468,90" sap2010:WorkflowViewState.IdRef="Sequence_7">
                               <sap:WorkflowViewStateService.ViewState>
@@ -826,7 +826,7 @@
                             </Assign>
                           </Sequence>
                         </Switch>
-                        <If Condition="[string.IsNullOrEmpty(in_TransactionItem.SpecificContent(&quot;PrixTonne&quot;).ToString)=false]" sap:VirtualizedContainerService.HintSize="506,473" sap2010:WorkflowViewState.IdRef="If_4">
+                        <If Condition="[string.IsNullOrEmpty(in_TransactionItem.SpecificContent(&quot;PrixTonne&quot;).ToString)=false]" sap:VirtualizedContainerService.HintSize="486,473" sap2010:WorkflowViewState.IdRef="If_4">
                           <If.Then>
                             <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,244" sap2010:WorkflowViewState.IdRef="Sequence_92">
                               <sap:WorkflowViewStateService.ViewState>
@@ -847,7 +847,7 @@
                             </Sequence>
                           </If.Else>
                         </If>
-                        <If Condition="[string.IsNullOrEmpty(in_TransactionItem.SpecificContent(&quot;PrixUC&quot;).ToString)=false]" sap:VirtualizedContainerService.HintSize="506,473" sap2010:WorkflowViewState.IdRef="If_5">
+                        <If Condition="[string.IsNullOrEmpty(in_TransactionItem.SpecificContent(&quot;PrixUC&quot;).ToString)=false]" sap:VirtualizedContainerService.HintSize="486,473" sap2010:WorkflowViewState.IdRef="If_5">
                           <If.Then>
                             <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,244" sap2010:WorkflowViewState.IdRef="Sequence_94">
                               <sap:WorkflowViewStateService.ViewState>
@@ -868,7 +868,8 @@
                             </Sequence>
                           </If.Else>
                         </If>
-                        <If Condition="[string.IsNullOrEmpty(in_TransactionItem.SpecificContent(&quot;Montant bareme Demi&quot;).ToString)=false]" sap:VirtualizedContainerService.HintSize="506,7046" sap2010:WorkflowViewState.IdRef="If_3">
+                        <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;AR&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="486,193" sap2010:WorkflowViewState.IdRef="WriteCellX_16" Value="[in_TransactionItem.SpecificContent(&quot;Unité quantité&quot;)]" />
+                        <If Condition="[string.IsNullOrEmpty(in_TransactionItem.SpecificContent(&quot;Montant bareme Demi&quot;).ToString)=false]" sap:VirtualizedContainerService.HintSize="486,521" sap2010:WorkflowViewState.IdRef="If_3">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -876,13 +877,13 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <If.Then>
-                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="504,6826" sap2010:WorkflowViewState.IdRef="Sequence_42">
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,301" sap2010:WorkflowViewState.IdRef="Sequence_42">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[in_TransactionItem.SpecificContent(&quot;Unité bareme Demi&quot;).ToString]" sap:VirtualizedContainerService.HintSize="470,6389" sap2010:WorkflowViewState.IdRef="Switch`1_2">
+                              <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[in_TransactionItem.SpecificContent(&quot;Unité bareme Demi&quot;).ToString]" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="Switch`1_2">
                                 <Switch.Default>
                                   <Sequence DisplayName="Default" sap:VirtualizedContainerService.HintSize="468,90" sap2010:WorkflowViewState.IdRef="Sequence_74">
                                     <sap:WorkflowViewStateService.ViewState>
@@ -894,7 +895,7 @@
                                 </Switch.Default>
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
@@ -1349,12 +1350,11 @@
                                   </Assign>
                                 </Sequence>
                               </Switch>
-                              <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(&quot;AR&quot;+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="470,193" sap2010:WorkflowViewState.IdRef="WriteCellX_16" Value="[in_TransactionItem.SpecificContent(&quot;Unité quantité&quot;)]" />
-                              <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(Column+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="470,184" sap2010:WorkflowViewState.IdRef="WriteCellX_19" Value="[in_TransactionItem.SpecificContent(&quot;Montant bareme Demi&quot;)]" />
+                              <ueab:WriteCellX Cell="[Excel.SelectedSheet.Cell(Column+ lastRowIndex.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="434,184" sap2010:WorkflowViewState.IdRef="WriteCellX_19" Value="[in_TransactionItem.SpecificContent(&quot;Montant bareme Demi&quot;)]" />
                             </Sequence>
                           </If.Then>
                           <If.Else>
-                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="504,90" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,90" sap2010:WorkflowViewState.IdRef="Sequence_43">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
